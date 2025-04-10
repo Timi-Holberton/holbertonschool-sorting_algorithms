@@ -1,9 +1,9 @@
 #include "sort.h"
 /**
- * bubble_sort - Entry point
- *@array:
- *@size:
- * Return: Always 0
+ * bubble_sort - trie un tableau d'entiers dans l'ordre croissant en
+ * utilisant l'algorithme de tri à bulles
+ * @array: correspond à notre pointeur qui s'oriente sur le tableau
+ * @size: correspond à la taille du tableau
  */
 void bubble_sort(int *array, size_t size)
 {
